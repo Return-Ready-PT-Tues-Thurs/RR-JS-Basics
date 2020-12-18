@@ -1,80 +1,91 @@
 // Basic math formulaas
-function addition(num1, num2){
-  return -1;
+function addition (num1, num2) {
+  let result = num1 + num2;
+  return result 
 }
 
 function subtraction(num1, num2){
-  return -1;
+  let result = num1 - num2;
+  return result 
 }
 
 function multiplication(num1, num2){
-  return -1;
+  let result = num1 * num2;
+  return result 
 }
 
 function division(num1, num2){
-  return -1;
+  let result = num1 / num2;
+  return result 
 }
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
-}
+  let result = side * side;
+  return result }
 
 function areaRectangle(length, width){
-  return -1;
-}
+  let result = width * length;
+  return result}
 
 function areaParallelogram(base, height){
-  return -1;
-}
+  let result = base * height;
+  return result}
 
 function areaTriangle(base, height){
-  return -1;
-}
+  let result = base * height /2;
+  return result}
 
 function Circle(radius){
-  return -1;
-}
+  let result = 3.14159 * radius*radius;
+  return result }
 
 function Sphere(radius){
-  return -1;
-}
+  let result = 4 * 3.14159 * (radius*radius);
+  return result }
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
-}
+  let result = side * side * side;
+  return result }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
-}
+  let result = (2*3.14*radius*height) + (2*3.14*radius*radius);
+  return result }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  let perSquare = 4 * side;
+  return (perSquare);
 }
 
 function perimeterRectangle(length, height){
-  return -1;
+  let perRect = lenght * height;
+  return (perRect);
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  let perTri = side1 + side2 + side3;
+  return (perTri);
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  let perCirc = diameter * Math.PI;
+  return (perCirc);
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  let volCube = side * side * side;
+  return (volCube);
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  let volRect = length * width * height;
+  return (volRect);
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  let volCyl = Math.PI * radius * radius * height;
+  return (volCyl);
 }
