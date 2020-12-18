@@ -1,80 +1,98 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  let addCalc = num1 + num2;
+  return addCalc;
 }
 
 function subtraction(num1, num2){
-  return -1;
+  let addCalc = num1 - num2;
+  return addCalc;
 }
 
 function multiplication(num1, num2){
-  return -1;
+  let addCalc = num1 * num2;
+  return addCalc;
 }
 
 function division(num1, num2){
-  return -1;
+  let addCalc = num1 / num2;
+  return addCalc;
 }
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  let addCalc = side * side;
+  return addCalc;
 }
 
 function areaRectangle(length, width){
-  return -1;
+  let addCalc = length * width;
+  return addCalc;
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  let addCalc = base * height;
+  return addCalc;
 }
 
 function areaTriangle(base, height){
-  return -1;
+  let addCalc = 0.5 * (base * height);
+  return addCalc;
 }
 
 function Circle(radius){
-  return -1;
+  let addCalc = 3.14 * (radius * radius);
+  return addCalc;
 }
 
 function Sphere(radius){
-  return -1;
-}
+  let addCalc = 4 * 3.14 * (radius * radius);
+  return addCalc;
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  let addCalc = 6 * (side * side);
+  return addCalc;
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  let addCalc = (2*3.14*radius*height)+(2*3.14(radius*radius));
+  return addCalc;
 }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  let addCalc = 4 * side;
+  return addCalc;
 }
 
 function perimeterRectangle(length, height){
-  return -1;
+  let addCalc = (2*length) + (2*height);
+  return addCalc;
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  let addCalc = side1 + side2 + side3;
+  return addCalc;
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  let addCalc = 3.14 * diameter;
+  return addCalc;
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  let addCalc = side * side * side;
+  return addCalc;
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  let addCalc = length * width * height;
+  return addCalc;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  let addCalc = 3.14 * height * (radius * radius);
+  return addCalc;
 }
