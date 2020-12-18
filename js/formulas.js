@@ -31,8 +31,8 @@ function areaRectangle(length, width){
 }
 
 function areaParallelogram(base, height){
-  let areaParallelogramsum = base * height;
-  return areaParallelogramsum;
+  let areaParallelogramSum = base * height;
+  return areaParallelogramSum;
 }
 
 function areaTriangle(base, height){
@@ -68,7 +68,7 @@ function perimeterSquare(side){
 }
 
 function perimeterRectangle(length, height){
-  let P = 2 * length + 2 * width;
+  let P = 2 * length + 2 * height;
   return P;
 }
 
