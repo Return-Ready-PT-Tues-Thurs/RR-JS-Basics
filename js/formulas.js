@@ -1,80 +1,105 @@
 // Basic math formulaas
 function addition(num1, num2){
-  return -1;
+  return  num1 + num2;
 }
 
 function subtraction(num1, num2){
-  return -1;
+  return  num1 - num2;
 }
 
 function multiplication(num1, num2){
-  return -1;
+  return  num1 * num2;
 }
 
 function division(num1, num2){
-  return -1;
+  return num1 / num2;
 }
 
 // Area formulaas
 function areaSquare(side){
-  return -1;
+  return side * side;
 }
 
 function areaRectangle(length, width){
-  return -1;
+  return length * width;
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  return base * height;
 }
 
 function areaTriangle(base, height){
-  return -1;
+  return base * height /2;
 }
 
 function Circle(radius){
-  return -1;
+  const radiusSquared = radius * radius;
+  const pi = Math.PI;
+  const areaOfCircle = radiusSquared * pi;
+  return areaOfCircle;
 }
 
 function Sphere(radius){
-  return -1;
+ let fourXP = (4 * Math.PI); 
+ let rXR = (radius * radius);
+ return fourXP * rXR;
 }
+
 
 // Surface Area formulas
+// Cube | SA = 6s<sup>2</sup> | where s = any side |
 function surfaceAreaCube(side){
-  return -1;
+ // let sixCube = (side * 6) * 2;
+ // return sixCube;
+
+ return Math.pow(side,3);
 }
 
+//Cylinder (lateral) | SA = 2 π r h | where π = 3.14, r = radius, and h = height  |
 function surfaceAreaCylinder(radius, height){
-  return -1;
+  let twoXPI = (2 * Math.PI); (radius * height);
+  return twoXPI; 
 }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  let fourS = (side * 4);
+  return fourS;
 }
 
-function perimeterRectangle(length, height){
-  return -1;
-}
+//Rectangle | P = 2l + 2w | where l = length and w = width |
+function perimeterRectangle(length, width){
+  let twolength = (2 * length) + (2 * width);
+  return twolength;
+  }
 
+  //Triangle | P = s1 + s2 + s3 | where s = a side |
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  let pT = (side1 + side2 + side3);
+  return pT;
 }
 
+//Circle | C = π d | where π = 3.14 and d = diameter |
 function perimeterCircle(diameter){
-  return -1;
+  let pC = (Math.PI * diameter);
+  return pC;
 }
 
 // Volume formulas
+//Cube | V = S<sup>3</sup> | where S = any side |
 function volumeCube(side){
-  return -1;
+  let vC = (side * side * side);
+  return vC;
 }
 
+//Rectangular Container | V = lwh | where l = length, w = width, and h = height 
 function volumeRectangular(length, width, height){
-  return -1;
+let vR =  (length * width * height);
+  return vR;
 }
 
+//Cylinder | V = π r<sup>2</sup>h | where π= 3.14, r = radius, and h = height |
 function volumeCylinder(radius, height){
-  return -1;
+  let vCy = Math.PI * ((radius * radius) * height);
+  return vCy;
 }
