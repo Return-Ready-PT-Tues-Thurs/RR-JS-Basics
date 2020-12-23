@@ -1,80 +1,98 @@
-// Basic math formulaas
+// Basic math formulas
 function addition(num1, num2){
-  return -1;
+  return num1 + num2;
 }
 
-function subtraction(num1, num2){
-  return -1;
+function subtraction(num2, num1){
+  return num1 - num2;
 }
 
 function multiplication(num1, num2){
-  return -1;
+  return num1 * num2;
 }
 
 function division(num1, num2){
-  return -1;
+  return num1 / num2;
 }
 
-// Area formulaas
+// Area formulas
 function areaSquare(side){
-  return -1;
+  return side * side;
 }
 
 function areaRectangle(length, width){
-  return -1;
+  return length * width;
 }
 
 function areaParallelogram(base, height){
-  return -1;
+  return base * height;
 }
 
 function areaTriangle(base, height){
-  return -1;
+  return base * height /2;
 }
 
 function Circle(radius){
-  return -1;
+  
+  const radiusSquared = radius * radius;
+  const pi = Math.PI;
+  const areaOfCircle = radiusSquared * Math.PI;
+  return areaOfCircle;
 }
 
 function Sphere(radius){
-  return -1;
-}
+  let radiusSphere = radius * radius;
+  const radiusPi = radiusSphere * Math.PI;
+  return 4 * radiusPi;
+}  
 
 // Surface Area formulas
 function surfaceAreaCube(side){
-  return -1;
+  let surfaceArea = 6 * side * side;
+  return surfaceArea;
+  
 }
 
 function surfaceAreaCylinder(radius, height){
-  return -1;
+   let cylinderArea = 2 * Math.PI * radius * height;
+   return cylinderArea;
 }
 
 // Perimeter formulas
 function perimeterSquare(side){
-  return -1;
+  return 4 * side;
 }
 
 function perimeterRectangle(length, height){
-  return -1;
+  let rectangleTop = length * 2;
+  let rectangleBottom = height * 2;
+  return rectangleBottom + rectangleTop;
 }
 
 function perimeterTriangle(side1, side2, side3){
-  return -1;
+  let triangleSize = side1 + side2 + side3;
+  return triangleSize;
 }
 
 function perimeterCircle(diameter){
-  return -1;
+  return Math.PI * diameter;
+  
 }
 
 // Volume formulas
 function volumeCube(side){
-  return -1;
+  let cubeSize = side * side * side;
+  return cubeSize;
 }
 
 function volumeRectangular(length, width, height){
-  return -1;
+  let rectangleSize = length * width * height;
+  return rectangleSize;
 }
 
 function volumeCylinder(radius, height){
-  return -1;
+  let cylinderSize = Math.PI;
+  let cylinderRace = radius * radius * height;
+  return cylinderSize * cylinderRace;
 }
+
