@@ -60,7 +60,7 @@ The formulas are divided into 5 sections:
 | ------- | -------- | ----------- |
 | Cube | V = S<sup>3</sup> | where S = any side |
 | Rectangular Container | V = lwh | where l = length, w = width, and h = height |
-| Cylinder | V = π r<sup>2</sup>h | where π= 3.14, r = radius, and h = height |
+| Cylinder |V  = π r<sup>2</sup>h | where π= 3.14, r = radius, and h = height |
 
 ## Instructions
 
